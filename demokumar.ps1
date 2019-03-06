@@ -4,19 +4,19 @@
 #Renaming static to custom name with zip extensions
 #---------------------------------------------------------- 
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.PpsrLogProcessChangePassword.zip" "ChangePassword.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.PpsrLogProcessChangePassword.zip" "ChangePassword.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.PpsrLogProcessJobSchedular.zip" "ProcessJobSchedular.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.PpsrLogProcessJobSchedular.zip" "ProcessJobSchedular.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.Admin.zip" "Adminportal.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.Admin.zip" "Adminportal.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.PpsrRequestJobScheduler.zip" "RequestJobScheduler.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.PpsrRequestJobScheduler.zip" "RequestJobScheduler.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.RemoveImages.zip" "RemoveImages.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.RemoveImages.zip" "RemoveImages.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.UpdateStatus.zip" "UpdateStatus.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.UpdateStatus.zip" "UpdateStatus.zip"
 
-Rename-Item "C:\Users\sysadmin\Downloads\vmss\Verimoto.zip" "API.zip"
+Rename-Item "C:\kumaresana\vmss\Verimoto.zip" "API.zip"
 
 Set-StrictMode -Version latest 
  
@@ -25,7 +25,7 @@ Set-StrictMode -Version latest
 #---------------------------------------------------------- 
 $search = "PackageTmp" 
 $dest   = "C:\inetpub" 
-$zips   = "C:\Users\sysadmin\Downloads\vmss" 
+$zips   = "C:\kumaresana\vmss" 
  
 #---------------------------------------------------------- 
 #FUNCTION GetZipFileItems 
